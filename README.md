@@ -1,7 +1,7 @@
 # -openmmlab-mmdet-task(advanced)
 VOC2007
 
-#数据处理
+# 数据处理
 使用的是VOC2007,mmdet能自动识别，只需要将dataset_type改成VOCDataset,再改掉train，val，test的数据格式就行了
 
 data_root数据集地址一定要包含大写的VOC2007，不然会报错（我当时写的是小写的voc2007,就出错无法推断年份，去源码里看才知道的） 
